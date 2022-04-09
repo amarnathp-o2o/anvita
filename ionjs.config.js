@@ -7,6 +7,7 @@ IonJs.config({
     "ion/dom": "dom.js",
     "ion/dep": "dependencies.js",
     "ion/constructor": "constructor.js",
-    "ion/element": "ionComponents.js"
+    "ion/element": "ionComponents.js",
+    "ion/dataBinder": "dataBinding.js"
   }
 });
