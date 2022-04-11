@@ -12,5 +12,3 @@ let IonJs =  {
     document.head.appendChild(ionMapJs);
   }
 };
-
-const injs;
