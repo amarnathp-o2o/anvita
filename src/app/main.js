@@ -1,19 +1,24 @@
 import { Component, Dependencies, Constructor } from "@ion";
 
 Constructor({
-  fav: "/assets/logo.svg"
+  fav: "/assets/logo.svg",
+  themeColor: "#000",
+  responsive: true
 });
 
 Dependencies({
   imports: [{
-    type: "script",
-    src: "https://unpkg.com/ioncss@1.7.4/ion.min.js"
+    type: "style",
+    src: "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
   }, {
     type: "style",
     src: "https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Ubuntu:wght@700&display=swap"
   }, {
     type: "style",
     src: "/src/style/main.css"
+  }, {
+    type: "script",
+    src: "/src/js/main.js"
   }]
 });
 

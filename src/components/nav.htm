@@ -1,20 +1,20 @@
-<div class="nav clearfix bg-white container-fluid p-2 fixed-top" style="border-bottom: 1px solid #ddd">
-<center>
-<div class="container">
-<div class="border-box text-left pr-2">
-  <div class="float-right" style="padding-top: 7px;"><app-icons icon="menu" onclick="toggleVisibility('#navmore')"></app-icons></div>
-  <b class="display-inline-block p-2" style="padding-top: 12px">Ion Js Project</b>
-</div>
-<div class="nav-more text-left p-4 w-10 border-box fixed-top" onclick="toggleVisibility('#navmore')" style="background: var(--ion--bg-transparent); height: 100%; z-index: 999" id="navmore">
-  <div class="bg-white container p-2 b-1 b-solid border-light br-2">
-    <div class="p-1 pt-3">
-<a class="text-decoration-none text-dark" href="/">Link one</a>
-<br><br>
-<a class="text-decoration-none text-dark" href="/">Link two</a>
+<nav class="flex items-center justify-between flex-wrap bg-black sticky top-0">
+  <div class="container-fluid w-full p-2 bg-green-500 text-white">
+    <p>Get 50% off on your first post with <strong>FIRST50</strong> coupon</p>
+  </div>
+  <div class="flex items-center flex-shrink-0 text-white mr-6 p-3 ">
+    <span class="font-semibold text-xl mt-2 tracking-tight">An Vita</span>
+  </div>
+  <div class="block md:hidden pr-5">
+    <button class="flex items-center px-3 py-2 text-teal-200 hover:text-white" onclick="toggleHeight('navmore')">
+      <svg class="h-5 w-5" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+    </button>
+  </div>
+  <div class="w-full collapsed md:max-h-full flex-grow md:flex md:items-center md:w-auto overflow-hidden" id="navmore">
+    <div class="text-sm p-3 pt-1 md:flex-grow">
+      <a href="#responsive-header" class="block mt-4 md:inline-block md:mt-0 text-teal-200 hover:text-white mr-4">
+        Sign Up
+      </a>
     </div>
   </div>
-</div>
-</div>
-</center>
-</div>
-<br /><br /><br />
+</nav>

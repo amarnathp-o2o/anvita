@@ -1,0 +1,10 @@
+.pr-1 { padding-right: 0.5rem }
+.pr-2 { padding-right: 1rem }
+.-3 { padding-right: 1.5rem }
+.pr-4 { padding-right: 2rem }
+.pr-5 { padding-right: 3rem }
+.pr-6 { padding-right: 4rem;}
+.pr-7 { padding-right: 6rem;}
+.pr-8 { padding-right: 8rem;}
+.pr-9 { padding-right: 10rem }
+.pr-10 { padding-right: 13rem }
